@@ -125,7 +125,7 @@ profile:
   store-fake-ip: true
 
 authentication:
-  - lian:1005
+  - nikki:nikki
 
 # ========================
 # 策略组定义
