@@ -132,10 +132,10 @@ default: &default
   proxies: [直连,所有-手动,所有-自动,香港-自动,台湾-自动,日本-自动,新加坡-自动,韩国-自动,美国-自动,其他-自动,拒绝]
 
 proxy-groups:
+  - {name: ChatGPT, <<: *default}
   - {name: Claude, <<: *default}
   - {name: Meta AI, <<: *default}
   - {name: Perplexity, <<: *default}
-  - {name: AI, <<: *default}
   - {name: GitHub, <<: *default}
   - {name: Telegram, <<: *default}
   - {name: Twitter(X), <<: *default}
@@ -172,10 +172,10 @@ proxy-groups:
 # 规则引擎（rules）
 # ========================
 rules:
+  - RULE-SET,ChatGPT / Domain,ChatGPT
   - RULE-SET,Claude / Domain,Claude
   - RULE-SET,Meta AI / Domain,Meta AI
   - RULE-SET,Perplexity / Domain,Perplexity
-  - RULE-SET,AI / Domain,AI
   - RULE-SET,Github / Domain,GitHub
   - RULE-SET,Telegram / Domain,Telegram
   - RULE-SET,Telegram / IP,Telegram,no-resolve
@@ -222,6 +222,7 @@ rule-anchor:
   class: &class {type: http, interval: 86400, behavior: classical, format: text}
 
 rule-providers:
+  ChatGPT / Domain: {<<: *domain, url: "https://github.geekery.cn/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/openai.mrs"}
   Claude / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.list"}
   Meta AI / Domain: {<<: *class, url: "https://github.geekery.cn/raw.githubusercontent.com/liandu2024/clash/refs/heads/main/list/MetaAi.list"}
   Perplexity / Domain: {<<: *domain, url: "https://github.geekery.cn/github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/perplexity.mrs"}
