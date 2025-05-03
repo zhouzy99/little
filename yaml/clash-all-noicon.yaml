@@ -104,6 +104,13 @@ dns:
     - +.lan
     - +.local
     - geosite:cn
+    - +.quickcht3.club
+    - +.sevenka.top
+    - +.oneyyds.online
+    - +.sssyun.xyz
+    - +.xiaoniuyun.cc
+    - +.huawei-cloud.shop
+    - +.472361.xyz
 
 ipv6: true
 
