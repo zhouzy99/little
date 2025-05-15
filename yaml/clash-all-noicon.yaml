@@ -197,7 +197,6 @@ default: &default
   proxies: [直连,所有-手动,所有-自动,香港-自动,台湾-自动,日本-自动,新加坡-自动,韩国-自动,美国-自动,其他-自动,拒绝]
 
 proxy-groups:
-  - {name: Test, <<: *default}
   - {name: ChatGPT, <<: *default}
   - {name: Claude, <<: *default}
   - {name: Meta AI, <<: *default}
@@ -220,6 +219,7 @@ proxy-groups:
   - {name: Apple, <<: *default}
   - {name: Microsoft, <<: *default}
   - {name: Google, <<: *default}
+  - {name: Test, <<: *default}
   - {name: 国外, <<: *default}
   - {name: 国内, <<: *default}
   - {name: 其他, <<: *default}
@@ -237,6 +237,7 @@ proxy-groups:
 # 规则引擎（rules）
 # ========================
 rules:
+  - RULE-SET,TEST / Domain,Test
   - RULE-SET,ChatGPT / Domain,ChatGPT
   - RULE-SET,Claude / Domain,Claude
   - RULE-SET,Meta AI / Domain,Meta AI
@@ -270,7 +271,6 @@ rules:
   - RULE-SET,Nintend / Domain,Game
   - RULE-SET,Google / Domain,Google
   - RULE-SET,Google / IP,Google,no-resolve
-  - RULE-SET,TEST / Domain,Test
   - RULE-SET,Proxy / Domain,国外
   - RULE-SET,Globe / Domain,国外  
   - RULE-SET,Direct / Domain,国内
