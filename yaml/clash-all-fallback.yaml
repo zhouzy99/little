@@ -191,9 +191,6 @@ tun:
 profile:
   store-selected: true
   store-fake-ip: true
- 
-authentication:
-  - lian:1005
 
 # ========================
 # 策略组定义
