@@ -6,7 +6,7 @@
 
 proxy-providers:
 
-  火烧:
+  火烧云:
     url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
     interval: 86400
@@ -15,7 +15,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连 
-
+    
   冰云:
     url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
@@ -24,8 +24,8 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连  
-    
+    proxy: 直连    
+
   小牛:
     url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
@@ -44,8 +44,8 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连
-
+    proxy: 直连      
+  
   无界:
     url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
@@ -54,7 +54,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连
+    proxy: 直连   
    
   猫耳:
     url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
@@ -74,7 +74,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连    
+    proxy: 直连 
     
   BestVPN:
     url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
@@ -84,7 +84,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连    
+    proxy: 直连     
 
   牛逼:
     url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
@@ -114,9 +114,9 @@ mode: rule
 log-level: info
 
 external-controller: 0.0.0.0:9090
-# external-ui: ui
-# external-ui-name: zashboard
-# external-ui-url: https://github.moeyy.xyz/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip
+external-ui: ui
+external-ui-name: zashboard
+external-ui-url: https://github.moeyy.xyz/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip
 secret: "123456"
 
 # ========================
@@ -130,7 +130,6 @@ dns:
   fake-ip-range: 198.20.0.1/16
   nameserver:
     - 223.5.5.5
-    - 223.6.6.6
   fake-ip-filter:
     - +.lan
     - +.local
@@ -142,7 +141,7 @@ dns:
     - +.onesubv.site
     - +.oneyyds.online
     - +.fengyyds.site
-    - +.onemg.top    
+    - +.onemg.top
 # 猫耳 
     - +.zhunchuanpb.com
     - +.sevenka.top
