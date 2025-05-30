@@ -6,8 +6,8 @@
 
 proxy-providers:
 
-  火烧:
-    url: "http://192.168.3.5:3001/AnGeWorld/download/hsy88.org?target=ClashMeta"
+  火烧云:
+    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
     interval: 86400
     health-check:
@@ -15,19 +15,19 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连 
-
+    
   冰云:
-    url: "http://192.168.3.5:3001/AnGeWorld/download/dyy.bingyun.ink?target=ClashMeta"
+    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连  
-    
+    proxy: 直连    
+
   小牛:
-    url: "http://192.168.3.5:3001/AnGeWorld/download/cdn.nd593ge2jbcz.com?target=ClashMeta"
+    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
     interval: 86400
     health-check:
@@ -37,27 +37,27 @@ proxy-providers:
     proxy: 直连    
 
   硅谷:
-    url: "http://192.168.3.5:3001/AnGeWorld/download/huawei-cloud.shop?target=ClashMeta"
+    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连
-
+    proxy: 直连      
+  
   无界:
-    url: "http://192.168.3.5:3001/AnGeWorld/download/bncrcloud.acwct.cn?target=ClashMeta"
+    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连
+    proxy: 直连   
    
   猫耳:
-    url: "http://192.168.3.5:3001/AnGeWorld/download/ht.idsduf.com?target=ClashMeta"
+    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
     interval: 86400
     health-check:
@@ -67,34 +67,34 @@ proxy-providers:
     proxy: 直连   
 
   快猫:
-    url: "http://192.168.3.5:3001/AnGeWorld/download/km688?target=ClashMeta"
+    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连    
+    proxy: 直连 
     
   BestVPN:
-    url: "http://192.168.3.5:3001/AnGeWorld/download/prosubnet02.eu?target=ClashMeta"
+    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连    
+    proxy: 直连
 
   牛逼:
-    url: "http://192.168.3.5:3001/AnGeWorld/download/6.66jc.top?target=ClashMeta"
+    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
     type: http
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
-    proxy: 直连      
+    proxy: 直连
 
 proxies:
   - {name: 直连, type: direct}
@@ -129,7 +129,7 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.20.0.1/16
   nameserver:
-    - 192.168.3.5:54
+    - 223.5.5.5
   fake-ip-filter:
     - +.lan
     - +.local
