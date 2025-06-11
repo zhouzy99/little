@@ -244,7 +244,7 @@ rules:
   - RULE-SET,Claude / Domain,Claude
   - RULE-SET,Meta AI / Domain,Meta AI
   - RULE-SET,Perplexity / Domain,Perplexity
-  - RULE-SET,Github / Domain,GitHub
+  - RULE-SET,GitHub / Domain,GitHub
   - RULE-SET,Telegram / Domain,Telegram
   - RULE-SET,Telegram / IP,Telegram,no-resolve
   - RULE-SET,Twitter / Domain,Twitter(X)
