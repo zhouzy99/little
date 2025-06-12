@@ -250,7 +250,7 @@ proxy-groups:
   - name: 所有-智选
     type: smart
     include-all: true
-#   policy-priority: "香港:0.8;牛逼:1.2"
+#   policy-priority: "香港:1.2;牛逼:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -260,7 +260,7 @@ proxy-groups:
   - name: 香港-智选
     type: smart
     include-all: true
-#   policy-priority: "牛逼:1.2"
+#   policy-priority: "牛逼:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -270,7 +270,7 @@ proxy-groups:
   - name: 台湾-智选
     type: smart
     include-all: true
-#   policy-priority: "牛逼:1.2"
+#   policy-priority: "牛逼:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -280,7 +280,7 @@ proxy-groups:
   - name: 日本-智选
     type: smart
     include-all: true
-#   policy-priority: "牛逼:1.2"
+#   policy-priority: "牛逼:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -290,7 +290,7 @@ proxy-groups:
   - name: 新加坡-智选
     type: smart
     include-all: true
-#   policy-priority: "牛逼:1.2"
+#   policy-priority: "牛逼:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -300,7 +300,7 @@ proxy-groups:
   - name: 韩国-智选
     type: smart
     include-all: true
-#   policy-priority: "牛逼:1.2"
+#   policy-priority: "牛逼:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -310,7 +310,7 @@ proxy-groups:
   - name: 美国-智选
     type: smart
     include-all: true
-#   policy-priority: "牛逼:1.2"
+#   policy-priority: "牛逼:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -320,7 +320,7 @@ proxy-groups:
   - name: 英国-智选
     type: smart
     include-all: true
-#   policy-priority: "牛逼:1.2"
+#   policy-priority: "牛逼:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -330,7 +330,7 @@ proxy-groups:
   - name: 其他-智选
     type: smart
     include-all: true
-#   policy-priority: "牛逼:1.2"
+#   policy-priority: "牛逼:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
