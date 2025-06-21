@@ -216,36 +216,36 @@ proxy-groups:
   # 业务分流组
 
   - {name: ChatGPT, <<: *default}
+  - {name: Gemini, <<: *default}
+  - {name: Copilot, <<: *default}
+  - {name: Perplexity, <<: *default}
   - {name: Claude, <<: *default}
   - {name: Meta AI, <<: *default}
-  - {name: Perplexity, <<: *default}
-  - {name: Copilot, <<: *default}
-  - {name: Gemini, <<: *default}
-  - {name: Reddit, <<: *default}
   - {name: GitHub, <<: *default}
-  - {name: Google, <<: *default}
-  - {name: Microsoft, <<: *default}
-  - {name: Apple, <<: *default}
+  - {name: Reddit, <<: *default}
+  - {name: Telegram, <<: *default}
   - {name: WhatsApp, <<: *default}
   - {name: Facebook, <<: *default}
   - {name: YouTube, <<: *default}
   - {name: TikTok, <<: *default}
-  - {name: Disney, <<: *default}
   - {name: Netflix, <<: *default}
   - {name: HBO, <<: *default}
-  - {name: Crunchyroll, <<: *default}
+  - {name: Disney, <<: *default}
   - {name: Amazon, <<: *default}
+  - {name: Crunchyroll, <<: *default}
   - {name: Spotify, <<: *default}
   - {name: Nvidia, <<: *default}
   - {name: Steam, <<: *default}
   - {name: Games, <<: *default}
   - {name: Crypto, <<: *default}
+  - {name: Apple, <<: *default}
+  - {name: Google, <<: *default}
+  - {name: Microsoft, <<: *default}
   - {name: Test, <<: *default}
   - {name: Block, <<: *default}
   - {name: 国外, <<: *default}
   - {name: 国内, <<: *default}
   - {name: 其他, <<: *default}
-
 
   # 所有组
 
@@ -456,6 +456,8 @@ rules:
   - RULE-SET,Gemini / Domain,Gemini
   - RULE-SET,Reddit / Domain,Reddit 
   - RULE-SET,GitHub / Domain,GitHub
+  - RULE-SET,Telegram / Domain,Telegram
+  - RULE-SET,Telegram / IP,Telegram
   - RULE-SET,WhatsApp / Domain,WhatsApp
   - RULE-SET,Facebook / Domain,Facebook
   - RULE-SET,Apple / Domain,Apple
