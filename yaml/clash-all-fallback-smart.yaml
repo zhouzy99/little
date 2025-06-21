@@ -219,6 +219,7 @@ proxy-groups:
   - {name: Meta AI, <<: *default}
   - {name: Perplexity, <<: *default}
   - {name: GitHub, <<: *default}
+  - {name: Reddit, <<: *default}
   - {name: Telegram, <<: *default}
   - {name: Twitter(X), <<: *default}
   - {name: WhatsApp, <<: *default}
@@ -439,6 +440,7 @@ rules:
   - RULE-SET,Meta AI / Domain,Meta AI
   - RULE-SET,Perplexity / Domain,Perplexity
   - RULE-SET,GitHub / Domain,GitHub
+  - RULE-SET,Reddit / Domain,Reddit  
   - RULE-SET,Telegram / Domain,Telegram
   - RULE-SET,Telegram / IP,Telegram,no-resolve
   - RULE-SET,Twitter / Domain,Twitter(X)
