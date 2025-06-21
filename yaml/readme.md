@@ -1,7 +1,9 @@
 详细用法：
 
 1）不跳IP，不封号！完美 YAML 再进化，OpenClash/Nikki，完美网络33：https://youtu.be/_u8lGlpvsRc
+
 2）AI 优选节点？Smart 智能策略组，OpenClash 再进化，FallBack + Smart 完美优选节点，完美网络34：https://youtu.be/QFxaEuUWb40
+
 3）深入 Smart 智能策略 + LightGBM，Nikki 故障转移 + 智能优选，完美网络35：https://youtu.be/tmifZemh7hc
 
 简要说明：
