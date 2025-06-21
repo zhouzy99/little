@@ -1,6 +1,6 @@
 zashboard 配置图标文件，详细用法请参看视频：
 
-1）免维护的完美分流规则 + 完美的 OpenClash/Nikki 面板，ZashBoard 独立部署，完美图标一键导入，完美网络30：https://youtu.be/jC8I5mjqM5Q
+免维护的完美分流规则 + 完美的 OpenClash/Nikki 面板，ZashBoard 独立部署，完美图标一键导入，完美网络30：https://youtu.be/jC8I5mjqM5Q
 
 -------------------------------
 用法：
