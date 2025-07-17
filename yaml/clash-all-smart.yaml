@@ -6,48 +6,7 @@
 
 proxy-providers:
 
-  魔戒:
-    url: "https://msub.fengchiyx.xyz/api/v1/client/subscribe?token=88b0231f63a6e784385dc367e36b4d81"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连 
-    
-  AMEI:
-    url: "https://xb.inekokkk.com/amei/8c5fd629c4c12b77ba1f5faefc8f7ee7"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连    
-
-  阿Q云加速:
-    url: "https://tecentapi.yunqing.work/api/v1/client/subscribe?token=79c3d7b49b4381fc33c9f5336236aeed"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连    
-
-  红杏:
-    url: "https://hongxingyun10.vip/hxyunvip?token=b47e891b3d40af05400eb04ea384cf83"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连      
-           
-  github:
-    url: "https://gist.githubusercontent.com/zhouzy99/30fe4d3385f2e361dcfe06f01ddeb181/raw/clash.yaml"
+  
     type: http
     interval: 86400
     health-check:
